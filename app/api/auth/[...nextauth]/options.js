@@ -21,7 +21,7 @@ export const options = {
         }),
         GoogleProvider({
             profile(profile) {
-                let userRole = "Github User";
+                let userRole = "Google User";
 
                 return {
                     ...profile,
