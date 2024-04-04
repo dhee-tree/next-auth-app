@@ -1,5 +1,5 @@
-import Nav from "./components/Nav";
-import BootstrapClient from "./components/BootstrapClient";
+import Nav from "./_components/Nav";
+import BootstrapClient from "./_components/BootstrapClient";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 
