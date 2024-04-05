@@ -4,7 +4,7 @@
 <p align="center">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/dhee-tree/next-auth-app">
     <img alt="GitHub commit activity (branch)" src="https://img.shields.io/github/commit-activity/t/dhee-tree/next-auth-app/main">
-    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/dhee-tree/next-auth-app/development">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/dhee-tree/next-auth-app/main">
 </p>
 
 ## 📖 About
