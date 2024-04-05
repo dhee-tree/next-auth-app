@@ -1,19 +1,14 @@
-"use client";
-import { DEFAULT_LOGIN_REDIRECT } from "@/routes";
-import { signIn } from "next-auth/react";
+import { Socials } from "@/app/_components/auth/socials";
 
 const Login = () => {
   return (
-    <div>
-        <h1>Sign in</h1>
-        <button onClick={() => signIn("google", { callbackUrl: DEFAULT_LOGIN_REDIRECT })}>
-            Sign in with Google
-        </button>
-        <button onClick={() => signIn("github", { callbackUrl: DEFAULT_LOGIN_REDIRECT })}>
-            Sign in with GitHub
-        </button>
+    <div className="mt-5 card justify-content-center text-center" style={{ width: "50%", margin: "0 auto" }}>
+      <div className="card-body justify-content-center">
+        <h1 className="card-title">Sign in</h1>
+        <Socials />
+      </div>
     </div>
-  )
+  );
 }
 
 export default Login
