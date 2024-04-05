@@ -14,7 +14,17 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Nav />
-        {children}
+          <main>
+            <div className="container">
+              <div className="container-fluid">
+                <div className="row justify-content-center">
+                  <div className="col text-center">
+                    {children}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
       </body>
       <BootstrapClient />
     </html>

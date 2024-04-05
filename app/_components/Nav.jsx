@@ -25,9 +25,6 @@ const Nav = async() => {
                                 <Link href="/member">Member</Link>
                             </li>
                             <li className="nav-item me-2">
-                                <Link href="/client-member">Client Member</Link>
-                            </li>
-                            <li className="nav-item me-2">
                                 <Link href="/about">About</Link>
                             </li>
                             <li className="nav-item me-2">
